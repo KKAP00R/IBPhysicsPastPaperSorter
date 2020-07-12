@@ -548,7 +548,7 @@ def savedata11():
     page9 = p9.get()
     page10 = p10.get()
     page11 = p11.get()
-    path = "C:/Users/Ajit/Desktop/PROGRAMS/" + str(s1)
+    path = "" + str(s1)
     name = os.path.join(path, s2 + ".txt")
     f = open(name, "w+")
     f.write("1.  " + string1 + "\n")
@@ -610,7 +610,7 @@ def savedata8():
     page6 = p6.get()
     page7 = p7.get()
     page8 = p8.get()
-    path = "C:/Users/Ajit/Desktop/PROGRAMS/" + str(s1)
+    path = "" + str(s1)
     name = os.path.join(path, s2 + ".txt")
     f = open(name, "w+")
     f.write("1.  " + string1 + "\n")
@@ -681,7 +681,7 @@ def savedata12():
     page10 = p10.get()
     page11 = p11.get()
     page12 = p12.get()
-    path = "C:/Users/Ajit/Desktop/PROGRAMS/" + str(s1)
+    path = "" + str(s1)
     name = os.path.join(path, s2 + ".txt")
     f = open(name, "w+")
     f.write("1.  " + string1 + "\n")
@@ -751,7 +751,7 @@ def savedata10():
     page8 = p8.get()
     page9 = p9.get()
     page10 = p10.get()
-    path = "C:/Users/Ajit/Desktop/PROGRAMS/" + str(s1)
+    path = "" + str(s1)
     name = os.path.join(path, s2 + ".txt")
     f = open(name, "w+")
     f.write("1.  " + string1 + "\n")
@@ -815,7 +815,7 @@ def savedata9():
     page7 = p7.get()
     page8 = p8.get()
     page9 = p9.get()
-    path = "C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/" + str(s1)
+    path = "" + str(s1)
     name = os.path.join(path, s2 + ".txt")
     f = open(name, "w+")
     f.write("1.  " + string1 + "\n")
@@ -867,16 +867,13 @@ def choiceprocess1():
     choiceprocess2()
     window5.destroy()
 def choiceprocess2():
+    global path_file2
     if choice2 == '1':
-        global path_file1
-        path_file1 = "C:/Users/Ajit/Desktop/PROGRAMS/1"
         presortfunction1()
     elif choice2 == '2':
-        global path_file2
-        path_file2 = "C:/Users/Ajit/Desktop/PROGRAMS/2"
         presortfunction1()
 def presortfunction1():
-    path_file2 = "C:/Users/Ajit/Desktop/PROGRAMS/" + str(choice2)
+    path_file2 = "" + str(choice2)
     global arr
     global z1
     global reqcon
@@ -1064,7 +1061,7 @@ def pdfextraction():
         finalarr.append(file_output)
     pdfmerger2()
 def pdfmerger2():
-    path_final = "C:/Users/Ajit/Desktop/PROGRAMS/IB"
+    path_final = "" + "IB"
     output_file = 'TOPIC' + str(choice1) + " QUESTIONS LOADED.pdf"
     output_final = os.path.join(path_final, output_file)
     print(finalarr)
@@ -1081,7 +1078,7 @@ window1 = theme.ThemedTk()
 window1.get_themes()
 window1.set_theme("plastik")
 window1.title("TASK")
-window1.geometry("400x400")
+window1.geometry("400x200")
 myFONT = tkFont.Font(family = "Century Gothic", size = 12, weight = "bold")
 browse = ttk.Button(window1, text = "LOAD", width = 40, command = browsefn)
 browse.pack()
