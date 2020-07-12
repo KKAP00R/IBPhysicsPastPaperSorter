@@ -1,0 +1,20 @@
+1.  2
+ 1P. 1
+2.  11
+ 2P. 5
+3.  2
+ 3P. 7
+4.  9
+ 4P. 9
+5.  7
+ 5P. 12
+6.  12
+ 6P. 15
+7.  5
+ 7P. 17
+8.  6
+ 8P. 18
+9.  3
+ 9P. 21
+path:C:/Users/Karan Kapoor/OneDrive/Desktop/PROGRAMS/2018N.pdf
+total:9
