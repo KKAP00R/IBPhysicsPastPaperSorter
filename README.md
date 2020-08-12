@@ -1,14 +1,14 @@
 # IB Physics Past Paper Sorter
 
 Code for sorting Physics IB Past Papers Questions Topic-wise
-BEFORE ACCESSING THIS FILE AND USING IT, PLEASE READ THIS TEXT FILE CAREFULLY.
+Before accessing the program, please read this text carefully <br/>
 
 # How this Works?
-1.THE SOFTWARE BASED ON PYTHON ESSENTIALLY WORKS AS A DATA BASE TO AUTOMATICALLY CLASSIFY EVERY QUESTION IN THE INTERNATIONAL BACCALUREATE (IB) PHYSICS PAST PAPER BELONGING TO A CERTAIN TOPIC.<br/>
-2.THE TOPIC IS TO BE ENTERED IN THE INTEGER FORM AND AS OF NOW, ONLY WHOLE NUMBER TOPICS ARE SUPPORTED, SUB TOPICS ARE NOT SUPPORTED, BUT MULTIPLE TOPICS CAN BE USED IF SEPERATED VIA A DOUBLE SPACE IN THE ENTRY TAB.<br/>
-3.AFTER ENTRY, THE SOFTWARE WILL STORE INFORMATION ENTERED BY THE USER IN FILES OF DIRECTORY - .../PROGRAMS/1/ OR .../PROGRAMS/2/ DEPENDING ON THE LEVEL OF THE PAPER.
-4.LATER, WHEN ACCESSING, THIS SOFTWARE USES THE PyPDF2 TO READ THROUGH PDFs.<br/>
-5.ULTIMATELY, A FILE IS CREATED IN THE IB FOLDER WHERE THE TOPIC SORTED FILES ARE PRESENT.<br/>
+This Section is for information to Developers, who further choose to utilize the MIT License and refine/edit the code
+1. The program based on Python Essentially Works as a Data base to classify every question in the International Baccalaureate Diploma Programme (IBDP) Physics past papers belonging to a certain topic.<br/>
+2. The Topic for every individual question is entered in integer form with the list given in the IB Guide, and as of now only whole number topics are supported. Sub-topics are not supported. However, Multiple topics can be entered by seperating the two with a double space..<br/>
+3.After Entry, the software will store iinformation entered by the user in .txt format, in directory -  .../PROGRAMS/1/ OR .../PROGRAMS/2/ Depending on the level of the paper. <br/>
+4.Later, while accessing the database of papers, this software uses PyPDF2 to readt through PDFs, merge PDF files and create a seperate file filled with questions of the desired topic.<br/>
 
 # Before Using the Program
 HAVING PYTHON 3.8 OR MORE UPDATED VERSION INSALLED FOR INTERPRETING THE PROGRAM.<br/>
@@ -17,4 +17,4 @@ IN LINES 551, 613, 684, 754, 818, 876, AND 1064 ENTER THE PATH TO THE PROGRAMS F
 THANKS FOR USING THIS SOFTWARE. HOPE YOU ENJOY IT.
 
 KKaps-code.<br/>
-DEVELOPER.
+Developer.
